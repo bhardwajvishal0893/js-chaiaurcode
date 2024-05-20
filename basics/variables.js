@@ -33,6 +33,6 @@ let isRich = true;
 */
 
 console.log(typeof(netWorth)); // will output bigint correctly
-console.log(typeof(isRich));
-console.log(typeof null);
+console.log(typeof(isRich)); // boolean
+console.log(typeof null); // object
 console.log(typeof undefined); // no need to use brackets also when working with typeof
