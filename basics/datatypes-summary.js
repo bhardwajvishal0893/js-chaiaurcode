@@ -29,3 +29,23 @@ const myFunc = function(){
 
 console.log(typeof myObj); // object
 console.log(typeof myFunc); // function
+
+//MEMORY STACK(PRIMITIVE) AND HEAP(NON PRIMITIVE)
+let youtubeName = "vishalbhardwaj.com"
+// stack is bit above bit first in last out
+
+let anotherName = youtubeName; // you are given a copy of youtubeName
+youtubeName = "sumansingh.com"
+console.log(youtubeName);
+console.log(anotherName);
+
+let userOne = {
+    email : "xyz@gmail.com",
+    upi : "2045@ybl"
+}
+
+let userTwo = userOne //not a copy but a reference of same userOne so if we change userTwo value than userOne value will change as well because of same reference
+userTwo.email = "qwerty@gmail.com"
+console.log(userTwo.email);
+console.log(userOne.email);
+
