@@ -90,7 +90,32 @@ console.log(Object.values(obj2));
 console.log(Object.entries(obj2)); // every value of the object will be created in an array form
 console.log(obj2.hasOwnProperty("99"));
 
+const course = {
+    courseName : "JavaScript",
+    price : "999",
+    courseInstructor : "Ritesh"
+}
+// course.courseInstructor can be done as well
+const {courseInstructor} = course // course is the object name 
+const {courseName : name} = course
+console.log(courseInstructor);
+console.log(name);
 
+// API's are helpers to delegate work, like google pay login we just login google handles user authentication
 
+// JSON is how you get values
 
+// {
+//     "name":"Vishal",
+//     "courseName" : "DevOps",
+//     "price":"free"
+// } Sample JSON
+
+//Another format of API Array Format
+
+[
+    {},
+    {},
+    {}
+]
 
