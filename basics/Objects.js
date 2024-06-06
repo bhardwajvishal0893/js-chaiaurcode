@@ -119,3 +119,19 @@ console.log(name);
     {}
 ]
 
+
+
+
+
+
+//----------------------------------------------------------------------
+
+const newObj = {
+    name : "Vishal Bhardwaj",
+    email : "bhardwajvishal0893@gmail.com",
+    designation : "Director",
+    salary : "$100000000",
+    TargetPromotionYear : 2024,
+}
+
+console.log(newObj.TargetPromotionYear);
